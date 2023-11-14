@@ -4,18 +4,21 @@
 	{
 		static void Main(string[] args)
 		{
-			//SquareExpressionSolver solver = new SquareExpressionSolver(a: 4, b: -3, c: 9);
+			SquareExpressionSolver solver = new SquareExpressionSolver(a: 4, b: -3, c: 9);
 
-			//ComplexNum[] result = solver.GetRoots();
+			ComplexNum[] result = solver.Calculate();
 
-			//Console.WriteLine("Roots: {0} and {1}", result[0], result[1]);
+			double r1 = result[0];
 
-			//DateTime dateTime = new DateTime(2017, 12, 31);
-			//DateTime dateTime1 = new DateTime(2017, 12, 31);
+			Console.WriteLine("Roots: {0} and {1}", result[0], result[1]);
 
-			//TimeSpan timeSpan = dateTime - dateTime1;
 
-			ComplexNum complex = new ComplexNum(1, 2);
+			///////////////////////////////
+			string[] strs = new string[9];
+			int[] ints = new int[9];
+
+			object[] obj = strs;
+
 		}
 	}
 }
